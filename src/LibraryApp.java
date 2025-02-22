@@ -15,7 +15,7 @@ public class LibraryApp {
         libraryUI.start();
     }
 
-    // method to get all the books from database
+    // method to get all the books from databaseHo
     public List<Book> getAllBooks() throws SQLException {
         return bookDAO.getAllBooks();
     }
